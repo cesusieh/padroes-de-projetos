@@ -16,7 +16,11 @@ public class Main {
 
         accountManager.depositar(c1, 150.50);
         accountManager.sacar(c2, 300);
-        
+
         accountManager.verContas();
+
+        AccountManager accountManager2 = AccountManager.getInstance();
+
+        accountManager2.verContas();
     }
 }

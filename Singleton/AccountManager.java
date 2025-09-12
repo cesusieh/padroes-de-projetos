@@ -20,7 +20,6 @@ public class AccountManager {
         for (Account c : accounts) {
             if (c.getClient() == client) {
                 c.setSaldo(c.getSaldo() + valor);
-                System.out.println("Operação realizada com sucesso");
             }
         }
     }
@@ -29,7 +28,6 @@ public class AccountManager {
         for (Account c : accounts) {
             if (c.getClient() == client) {
                 c.setSaldo(c.getSaldo() - valor);
-                System.out.println("Operação realizada com sucesso");
             }
         }
     }
